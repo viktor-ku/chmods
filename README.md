@@ -1,4 +1,4 @@
-# resetmod
+# chmods
 
 > Have separate permissions set recursively for both files and directories
 
