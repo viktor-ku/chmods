@@ -1,5 +1,5 @@
 [package]
-name = "resetmod"
+name = "chmods"
 version = "0.1.0"
 authors = ["Viktor Kuroljov <viktor.konsta@gmail.com>"]
 edition = "2018"

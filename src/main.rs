@@ -21,7 +21,7 @@ const FILE_MODE: u32 = 0o644;
 
 fn main() -> io::Result<()> {
   let app = App::from_args();
-  let starting_path = app.path.as_path().canonicalize()?;
+  let starting_path = app.entry_path.as_path().canonicalize()?;
 
   let mut walk = Walk::new();
   walk.walk(&starting_path)?;

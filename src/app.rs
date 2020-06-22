@@ -3,9 +3,9 @@ use std::path::PathBuf;
 
 #[derive(Debug, StructOpt)]
 #[structopt(
-  name = "resetmod",
-  about = "Small utility for resetting the fs mode of files and folders"
+  name = "chmods",
+  about = "Have separate permissions set recursively for both files and directories"
 )]
 pub struct App {
-  pub path: PathBuf,
+  pub entry_path: PathBuf,
 }
